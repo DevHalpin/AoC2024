@@ -4,7 +4,7 @@ use get_input::fetch_input;
 
 
 fn main() {
-    let file = match fetch_input("1") {
+    let file = match fetch_input("4") {
         Ok(file) => file,
         Err(_) => {
             println!("Failed to fetch input");
